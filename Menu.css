@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+    margin: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 20px;
+}
+span{
+    display: block;
+}
+.img-foot{
+    height: 20vh;
+    
+}
+.img{
+    height: 100%;    
+}
+
+.menu{
+    border-left:  1px solid rgba(0, 0, 0, 0.616);
+    padding: 0 0 0 30px;
+}
+header{    
+    padding: 20px 0;
+    
+    border-bottom: 1px solid black;
+    
+}
+
+nav{        
+    margin-left: 20px;
+}
+.first{
+    padding-top: 0;
+}
+ul li{
+    list-style-type: none;
+     padding: 20px 0;
+     box-sizing: border-box;
+}
+
+.entradas article{
+    padding: 10px;   
+}
+.img-entradas{
+    margin-right: -10px;
+    float: right;
+}
+
+.all{
+    margin: auto 20px;
+}
